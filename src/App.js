@@ -2,7 +2,11 @@ import React from "react";
 import DashboardLayout from "./pages/DashboardLayout";
 
 const App = () => {
-  return <DashboardLayout />;
+  return (
+    <>
+      <DashboardLayout />
+    </>
+  );
 };
 
 export default App;
